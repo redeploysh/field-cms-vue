@@ -1,0 +1,30 @@
+{
+  "name": "field-cms-vue",
+  "version": "1.0.0",
+  "main": "dist/field-cms-vue.umd.js",
+  "module": "dist/field-cms-vue.esm.js",
+  "exports": {
+    ".": {
+      "import": "./dist/field-cms-vue.esm.js",
+      "require": "./dist/field-cms-vue.umd.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name field-cms-vue"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.5.10",
+    "axios": "^1.7.7",
+    "vue": "^3.5.10"
+  },
+  "devDependencies": {
+    "vue-cli-service": "^1.0.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  }
+}

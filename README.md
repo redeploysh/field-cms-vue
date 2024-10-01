@@ -1,2 +1,2 @@
-# field-cms-vue
-NPM package for Field CMS Vue.js components
+# Field CMS Vue 3 Adaptor
+This package provides a component system for Field CMS.
